@@ -51,7 +51,7 @@ export default function Hero() {
               animate ? "fade-up" : ""
             }`}
           >
-            World's <span style={{ color: "var(--primary)" }} >First Non-Expiry</span> Water
+            Worlds <span style={{ color: "var(--primary)" }} >First Non-Expiry</span> Water
           </h1>
 
           <p

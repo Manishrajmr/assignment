@@ -83,7 +83,7 @@ export default function Testimonials() {
       {/* Testimonial Card */}
       <div className="max-w-4xl w-full bg-gray-300 rounded-2xl shadow-md p-12 text-center relative">
         {/* Quote */}
-        <p className="text-gray-700 italic text-[18px] mb-6">"{testimonial.text}"</p>
+        <p className="text-gray-700 italic text-[18px] mb-6">{testimonial.text}</p>
 
         {/* Author */}
         <div className="flex flex-col items-center">

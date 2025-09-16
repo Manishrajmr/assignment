@@ -12,7 +12,7 @@ export default function AboutUs() {
           <p className="text-gray-700 leading-relaxed">
             <span className="font-semibold">Empire Blue Pvt. Ltd.</span> Established July 2025 Based on 
             Chhindwara Madhya Pradesh is a pioneering company in the bottled water industry recognized as 
-            the world's first manufacturer of non-expiry bacteria free water bottles.
+            the worlds first manufacturer of non-expiry bacteria free water bottles.
           </p>
           <p className="text-gray-700 leading-relaxed">
             Our mission is to revolutionize the way people consume water by ensuring purity, longevity, 

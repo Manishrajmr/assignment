@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const Footer = () => {
   return (
@@ -7,11 +8,13 @@ const Footer = () => {
     <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
       {/* Logo + About */}
       <div>
-        <img
-          src="https://www.empireblue.in/_next/image?url=%2Flogo1.png&w=640&q=75" // apna logo path
-          alt="Empire Blue"
-          className="h-12 mb-4"
-        />
+       <Image
+  src="https://www.empireblue.in/_next/image?url=%2Flogo1.png&w=640&q=75"
+  alt="Empire Blue"
+  width={200}   // required
+  height={50}   // required
+  className="h-12 mb-4"
+/>
         <p className="text-gray-600 text-sm leading-relaxed">
           Providing clean and safe water solutions for a healthier tomorrow.
           Our commitment to quality and innovation makes us the trusted choice
